@@ -1,6 +1,7 @@
 📦 Amazon S3 Bucket Project: Upload & Permissions Management
 
 📁 Project Overview
+
 This project demonstrates how to create and configure an Amazon S3 bucket, upload a dataset (netflix_titles.csv), and manage permissions. It also highlights a common permissions issue related to ACLs and how AWS handles public access control.
 
 ✅ Features
