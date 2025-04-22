@@ -1,50 +1,28 @@
-📦 Amazon S3 Bucket Project: Upload & Permissions Management
+# Amazon S3 Bucket Project: Upload & Permissions
 
-📁 Project Overview
+This project shows how to create an S3 bucket, upload a file, and understand permission settings in AWS S3.
 
-This project demonstrates how to create and configure an Amazon S3 bucket, upload a dataset (netflix_titles.csv), and manage permissions. It also highlights a common permissions issue related to ACLs and how AWS handles public access control.
+## What I Did
+- Created an S3 bucket: `my-cloud-project-bucket1`
+- Uploaded `netflix_titles.csv` using the AWS Console
+- Tried to make the file public using ACL (but it was blocked)
+- Learned how AWS handles public access and ACL restrictions
 
-✅ Features
-Create an S3 bucket (my-cloud-project-bucket1)
+## Key Takeaways
+- ACLs (Access Control Lists) are disabled by default for security
+- Public access should be managed using Bucket Policies or IAM
+- Hands-on experience with S3 object upload and permissions
 
-Upload CSV file to the bucket
+## Common Issue Faced
+- Could not enable public access via ACL due to AWS default settings
+- Understood how to troubleshoot and apply best practices for object security
 
-Review and manage permissions
+## Tools Used
+- AWS S3
+- AWS Console (Web GUI)
+- Sample dataset: `netflix_titles.csv`
 
-Identify and understand blocked ACL usage
-
-Learn AWS best practices for object-level security
-
-🛠️ Technologies Used
-AWS S3 – Object storage
-
-AWS Console – GUI for resource creation and config
-
-netflix_titles.csv – Sample dataset for testing
-
-⚠️ Common Issue Faced
-
-While trying to make the uploaded object public via ACL, the option was disabled due to AWS security defaults. This was resolved by understanding that:
-
-✅ ACLs are disabled by default in AWS S3 for enhanced security.
-🔐 Public access should instead be controlled via Bucket Policies or IAM roles.
-
-📚 What I Learned
-
-How to create and use Amazon S3 buckets
-
-Uploading objects through AWS Console
-
-AWS permission models (ACL vs Bucket Policies)
-
-Debugging public access issues with S3 objects
-
-🙌 Author
-
-Made with ☁️ by Siddhesh Pallor
-
-Beginner Cloud Enthusiast | Learning AWS
-
-🔗 https://www.linkedin.com/in/siddhesh-pallor-821516311/
-
-
+## Author
+Made with ☁️ by Siddhesh Pallor  
+Beginner Cloud Enthusiast | Learning AWS  
+🔗 [LinkedIn](https://www.linkedin.com/in/siddhesh-pallor-821516311/)
