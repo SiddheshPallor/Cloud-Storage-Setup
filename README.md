@@ -13,6 +13,9 @@ This project shows how to create an S3 bucket, upload a file, and understand per
 - Public access should be managed using Bucket Policies or IAM
 - Hands-on experience with S3 object upload and permissions
 
+## 📸 Screenshots
+Please refer to the Documentation file for supporting images related to IAM setup, bucket creation, and access testing.
+
 ## Common Issue Faced
 - Could not enable public access via ACL due to AWS default settings
 - Understood how to troubleshoot and apply best practices for object security
