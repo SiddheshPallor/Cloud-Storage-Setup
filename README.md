@@ -1,5 +1,17 @@
 # Amazon S3 Bucket Project: Upload & Permissions
 
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: SIDDHESH SHAJITH PALLOR
+
+*INTERN ID*: CT04DK78
+
+*DOMAIN*: CLOUD COMPUTING
+
+*DURATION*: 4 WEEEKS
+
+*MENTOR*: NEELA SANTOSH
+
 This project shows how to create an S3 bucket, upload a file, and understand permission settings in AWS S3.
 
 ## What I Did
