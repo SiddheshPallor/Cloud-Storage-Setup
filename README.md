@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-This project shows how to create an S3 bucket, upload a file, and understand permission settings in AWS S3.
+## This project shows how to create an S3 bucket, upload a file, and understand permission settings in AWS S3.
 
 ## What I Did
 - Created an S3 bucket: `my-cloud-project-bucket1`
